@@ -1,0 +1,15 @@
+/***
+ * @copyright Copyright (c) 2017, Magnus Walbeck <mw@mwalbeck.org>
+ *
+ * @license GNU AGPL version 3
+ ***/
+
+/* First Run Wizard --------------------------------------------------------- */
+
+#firstrunwizard p a {
+	color: var(--color-text-link) !important;
+
+	&:hover, &:focus {
+		color: var(--color-text-link) !important;
+	}
+}

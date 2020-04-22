@@ -1,0 +1,25 @@
+/***
+ * @copyright Copyright (c) 2017, Magnus Walbeck <mw@mwalbeck.org>
+ *
+ * @license GNU AGPL version 3
+ ***/
+
+/* Flow Upload -------------------------------------------------------------- */
+
+.app-flowupload {
+    background-color: var(--color-main-background);
+    
+    hr {
+        border-top-color: var(--color-border);
+        border-bottom-color: var(--color-border);    
+    }
+}
+
+/* Icons -------------------------------------------------------------------- */
+
+.app-flowupload {
+
+    .icon-file.select-file-icon {
+        background-image: var(--icon-text-f2f2f2) !important;
+    }
+}
