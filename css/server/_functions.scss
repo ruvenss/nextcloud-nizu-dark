@@ -1,25 +1,14 @@
-/**
- * @copyright Copyright (c) 2018, John Molakvoæ (skjnldsv@protonmail.com)
- * @copyright Copyright (c) 2019, Magnus Walbeck (mw@mwalbeck.org)
- *
- * @author John Molakvoæ (skjnldsv) <skjnldsv@protonmail.com>
- *
- * @license GNU AGPL version 3 or any later version
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU Affero General Public License as
- * published by the Free Software Foundation, either version 3 of the
- * License, or (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU Affero General Public License for more details.
- *
- * You should have received a copy of the GNU Affero General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- *
- */
+/*
+=============================================================================
+* Nizu Dark for Nextcloud
+* Version: 18.0.12
+* Date 2020-04-22
+* Copyright (C) 2020, RGW IT SERVICES <helpdesk@rgwit.be>
+* License: AGPLv3 - https://github.com/ruvenss/nextcloud-nizu-dark/blob/master/COPYING
+* Source code: https://github.com/mwalbeck/nextcloud-nizu-dark
+* Made with the help of contributors! See AUTHORS.md
+=============================================================================
+*/
 
 @mixin icon-color-theming($icon, $dir, $color, $version: 1, $core: false) {
     $color: remove-hash-from-color($color);
